@@ -1,0 +1,31 @@
+from django.db import models
+
+# Create your models here.
+
+class breastCancer(models.Model):
+    radius_mean = models.FloatField(null=True, blank=True, default=None)
+    texture_mean = models.FloatField(null=True, blank=True, default=None)
+    perimeter_mean = models.FloatField(null=True, blank=True, default=None)
+    area_mean = models.FloatField(null=True, blank=True, default=None)
+    smoothness_mean = models.FloatField(null=True, blank=True, default=None)
+    compactness_mean = models.FloatField(null=True, blank=True, default=None)
+    concavity_mean = models.FloatField(null=True, blank=True, default=None)
+    concave_points_mean = models.FloatField(null=True, blank=True, default=None)
+    symmetry_mean = models.FloatField(null=True, blank=True, default=None)
+    radius_se = models.FloatField(null=True, blank=True, default=None)
+    perimeter_se = models.FloatField(null=True, blank=True, default=None)
+    compactness_se = models.FloatField(null=True, blank=True, default=None)
+    area_se = models.FloatField(null=True, blank=True, default=None)
+    concavity_se = models.FloatField(null=True, blank=True, default=None)
+    concave_points_se = models.FloatField(null=True, blank=True, default=None)
+    fractal_dimension_se = models.FloatField(null=True, blank=True, default=None)
+    radius_worst = models.FloatField(null=True, blank=True, default=None)
+    texture_worst = models.FloatField(null=True, blank=True, default=None)
+    perimeter_worst = models.FloatField(null=True, blank=True, default=None)
+    area_worst = models.FloatField(null=True, blank=True, default=None)
+    smoothness_worst = models.FloatField(null=True, blank=True, default=None)
+    compactness_worst = models.FloatField(null=True, blank=True, default=None)
+    concavity_worst = models.FloatField(null=True, blank=True, default=None)
+    concave_points_worst = models.FloatField(null=True, blank=True, default=None)
+    symmetry_worst = models.FloatField(null=True, blank=True, default=None)
+    fractal_dimension_worst = models.FloatField(null=True, blank=True, default=None)
